@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <title>bight
+    </title>
+    <script src="https://kit.fontawesome.com/7ae3d54118.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style4.css" type="text/css">
+    <link rel="icon" href="img/butterfly.png">
+</head>
+
+<body>
+
+    <header class="hd">
+        <div class="container">
+            <div class="topbar">
+                <div class="menubar">
+                    <div class="logo">
+                        <h1>bight</h1>
+                    </div>
+                    <div class="menu">
+                        <div>
+                            <p>Home</p>
+                        </div>
+                        <div>
+                            <p>Company</p>
+                        </div>
+                        <div>
+                            <p>Store</p>
+                        </div>
+                        <div>
+                            <p>Price</p>
+                        </div>
+                        <div>
+                            <p>Contact</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p>Contat</p>
+                    <h1 id="ani1">Are easy to find</h1>
+                    <p>Synergistically transition cast effective niches with out frictionless niche markets convenienty
+                        leverage other's leveraged information for</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="midle">
+        <div class="container">
+            <div class="midle2">
+                <h1>Contact us</h1>
+                <div class="form_box">
+                    <div class="photo" id="ani2">
+                        <img src="img/vector.jpg" alt="vector">
+                    </div>
+                    <div class="form" id="ani3">
+                        <input type="text" placeholder="Name"><br>
+                        <input type="email" placeholder="Email"><br>
+                        <input type="text" value="Integration" readonly><br>
+                        <textarea name="" id="" cols="47" rows="9" placeholder="Write us"></textarea><br>
+                        <div class="btn" id="ani9"><button class="ani9">Start for free</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="flo">
+        <div class="container">
+            <div class="flo2" id="ani4">
+                <div class="left">
+                    <p>All dolleed up</p>
+                    <h3>Design&trending subscribe us</h3>
+                </div>
+                <div class="right">
+                    <input type="email" placeholder="example@gail .com">
+                    <div class="subicon"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+
+
+        <div class="container">
+            <div class="foot">
+                <div class="fo">
+                    <div class="box">
+                        <h1>bight</h1> <span>language</span>
+                        <p>English(USA)</p>
+                    </div>
+                    <div class="box2">
+                        <h3>Menu</h3>
+                        <p>Company</p><br>
+                        <p>store</p><br>
+                        <p>Price</p><br>
+                        <p>Contact</p>
+                    </div>
+                    <div class="box3" >
+                        <h3>With bight account</h3><button id="ani7">Start for free</button>
+                    </div>
+                    <div class="box4">
+                        <h3>Social Media</h3>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+
+                </div>
+                <div class="copyright" >
+                    <a href="http:/www.facebook.com/profile/joy.banik.50115" id="ani14">Copyright by 2021 Joy Banik</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script type="text/javascript">
+
+        
+        $(document).ready(function(){
+        $(window).scroll(function(){
+
+            var position= $(window).scrollTop();
+            console.log(position);
+
+            if(position>80 && position<120){
+                $("#ani1").addClass("animated flipInX");
+            }
+            if(position>300 && position>375){
+                $("#ani2").addClass("animated bounceInLeft");
+                $("#ani3").addClass("animated bounceInRight");
+                document.querySelector(".midle").setAttribute("style","opacity:1");
+            }
+            if(position>500 && position<530){
+                $("#ani9").addClass("animated bounceInUp");
+                document.querySelector(".ani9").setAttribute("style","opacity:1");
+            }
+            if(position>800 && position<1000){
+                $("#ani4").addClass("animated fadeInDown");
+                document.querySelector(".flo").setAttribute("style","opacity:1");
+            }
+            if(position>1111 && position<1130){
+                $("#ani7").addClass("animated rotateInUpRight");
+                document.querySelector("#ani7").setAttribute("style","opacity:1");
+            }
+            if(position>1157 && position<1205){
+                $("#ani14").addClass("animated rollIn");
+            }
+        });
+        });
+        
+
+    </script>
+</body>
+</html>

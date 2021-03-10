@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background-color: #0abcf9;
+background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+    height: 350px;
+    border-bottom-right-radius: 130px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.topbar {
+    color: white;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 30px 20px;
+    font-size: 16px;
+}
+
+.menu {
+    display: flex;
+    width: 550px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 50px;
+    transition: .5s;
+}
+
+.menu p:hover {
+    color:limegreen;
+}
+
+.text {
+    width: 520px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.text h1 {
+    margin: 12px 0;
+}
+
+.form_box {
+    display: flex;
+}
+
+.photo {
+    height: 500px;
+
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.midle2 h1 {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form {
+    padding-top: 30px;
+}
+
+.form input {
+    margin-top: 25px;
+    padding: 20px 15px;
+    padding-right: 200px;
+    background: #dadada;
+    border: none;
+    outline: none;
+}
+
+.form textarea {
+    margin: 30px 0;
+    background: #dadada;
+    border: none;
+    padding: 20px;
+    outline: none;
+}
+
+.btn button {
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #0abcf9;
+background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+    color: white;
+    box-shadow: 1px 1px 10px 0px black;
+    margin-bottom: 50px;
+    transition:all .5s ease;
+}
+.ani9{
+    opacity: 0;
+}
+
+.btn button:hover {
+    background-color: #4d5dfb;
+background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+    cursor: pointer;
+}
+
+footer {
+    /*background: #0951A0;*/
+    background-color: #4d5dfb;
+background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+    border-top-left-radius: 130px;
+}
+
+.foot {
+    color: white;
+}
+
+.fo {
+    border-bottom: 1px solid#dadada;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.box h1 {
+    margin-bottom: 10px;
+}
+
+.box2 h3 {
+    margin: 10px 0;
+}
+
+.box3 h3 {
+    margin: 10px 0;
+}
+
+.box4 h3 {
+    margin: 10px 0;
+}
+
+.box3 button {
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: white;
+    color:#0951A0;
+    margin-top: 10px;
+    transition: .5s;
+    box-shadow: 1px 1px 10px 0px black;
+}
+#ani7{
+    opacity: 0;
+}
+
+.box3 button:hover {
+    background-color: #4d5dfb;
+background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+    color: white;
+    cursor: pointer;
+}
+
+.box4 i {
+    margin-top: 10px;
+    padding: 6px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.box4 i:hover {
+    color:lawngreen;
+    cursor: pointer;
+}
+.copyright{padding: 10px;}
+.copyright a{
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow:0px 0px 10px black;
+    color: white;
+}
+
+.flo2 {
+    background: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin-bottom: -100px;
+    position: relative;
+    border-bottom-right-radius: 110px;
+    box-shadow: 0px -1px 10px 0px black;
+
+}
+
+.left {
+    width: 200px;
+}
+
+.left h3 {
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.right {
+    display: flex;
+    position: relative;
+    margin-right: 20px;
+}
+
+.right input {
+    padding: 12px 15px;
+    padding-right: 50px;
+    background: #dadada;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.subicon {
+    width: 50px;
+    height: 50px;
+    background-color: #0abcf9;
+background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+    color: white;
+    text-align: center;
+    padding: 16px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -3px;
+    transition:all .5s ease;
+}
+
+.subicon:hover {
+    background-color: #4d5dfb;
+background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+    cursor: pointer;
+}
+
+.midle{
+    opacity: 0;
+}
+.flo{
+    opacity: 0;
+}
+
